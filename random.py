@@ -5,4 +5,4 @@ NAMES = ['Stephen', 'Daan', 'Kees']
 def get_name():
 	return random.choice(NAMES)
 
-print("Hoi ik ben {naam}".format(naam=get_name()))
+print("Hey ik ben {naam}".format(naam=get_name()))
